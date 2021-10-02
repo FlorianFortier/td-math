@@ -1,0 +1,45 @@
+.container>div {
+    text-align: center;
+    font-size: 30px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 100px);
+    grid-template-rows: minmax(100px, auto) minmax(200px, auto);
+    grid-auto-rows: 150px;
+    background-color: purple;
+    grid-gap: 5px;
+}
+
+.ele_1{
+    background-color: royalblue;
+}
+
+.ele_2{
+    background-color: salmon;
+}
+
+.ele_3{
+    background-color: seagreen;
+}
+
+.ele_4{
+    background-color: slategray;
+}
+
+.ele_5{
+    background-color: turquoise;
+}
+
+.ele_6{
+    background-color: yellow;
+}
+
+.ele_7{
+    background-color: brown;
+}
+
+.ele_8{
+    background-color: chartreuse;
+}
